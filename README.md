@@ -21,9 +21,6 @@ In this project, we will use YOLO v2. This network is the state of the art for t
 ### Architecture of the convolutional neural network
 
 
-
-![model](./output_images/mode_yolo_plot.jpg)
-
 There are a total of  50,676,061 parameters in the model and the detail of the architecture is in list in this table
 
 ____________________________________________________________________________________________________
@@ -178,7 +175,7 @@ ________________________________________________________________________________
 leaky_re_lu_22 (LeakyReLU)       (None, 13, 13, 1024)  0                                            
 ____________________________________________________________________________________________________
 conv2d_23 (Conv2D)               (None, 13, 13, 125)   128125                                       
-====================================================================================================
+____________________________________________________________________________________________________
 Total params: 50,676,061.0
 Trainable params: 50,655,389.0
 Non-trainable params: 20,672.0
